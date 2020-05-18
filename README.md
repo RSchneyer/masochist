@@ -1,2 +1,2 @@
 # masochist
-the unholy ofspring of a Pain27 and Romeo
+the unholy offspring of a Pain27 and Romeo
