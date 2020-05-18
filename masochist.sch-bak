@@ -969,4 +969,131 @@ Text GLabel 10600 750  1    50   Input ~ 0
 COL8
 Text GLabel 11100 750  1    50   Input ~ 0
 COL9
+$Comp
+L power:+5V #PWR?
+U 1 1 5EDB8789
+P 2300 3300
+F 0 "#PWR?" H 2300 3150 50  0001 C CNN
+F 1 "+5V" H 2315 3473 50  0000 C CNN
+F 2 "" H 2300 3300 50  0001 C CNN
+F 3 "" H 2300 3300 50  0001 C CNN
+	1    2300 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3300 2300 3350
+Wire Wire Line
+	2200 3400 2200 3350
+Wire Wire Line
+	2200 3350 2300 3350
+Connection ~ 2300 3350
+Wire Wire Line
+	2300 3350 2300 3400
+Text GLabel 2800 3800 2    50   Input ~ 0
+ROW0
+Text GLabel 2800 3900 2    50   Input ~ 0
+ROW1
+Text GLabel 2800 4000 2    50   Input ~ 0
+ROW1
+Text GLabel 2800 4100 2    50   Input ~ 0
+ROW3
+Text GLabel 2800 5100 2    50   Input ~ 0
+COL0
+Text GLabel 2800 5000 2    50   Input ~ 0
+COL1
+Text GLabel 2800 4900 2    50   Input ~ 0
+COL2
+Text GLabel 2800 4800 2    50   Input ~ 0
+COL4
+Text GLabel 2800 4700 2    50   Input ~ 0
+COL6
+Text GLabel 2800 4600 2    50   Input ~ 0
+COL7
+Text GLabel 2800 5400 2    50   Input ~ 0
+COL3
+Text GLabel 2800 5500 2    50   Input ~ 0
+COL5
+Text GLabel 2800 5800 2    50   Input ~ 0
+COL8
+Text GLabel 2800 3700 2    50   Input ~ 0
+COL9
+Text GLabel 2800 5200 2    50   Input ~ 0
+RESET
+Text GLabel 2800 4300 2    50   Input ~ 0
+XTAL1
+Text GLabel 2800 4400 2    50   Input ~ 0
+XTAL2
+$Comp
+L Device:Crystal Y1
+U 1 1 5EDE211A
+P 4000 4350
+F 0 "Y1" V 3954 4481 50  0000 L CNN
+F 1 "Crystal" V 4045 4481 50  0000 L CNN
+F 2 "" H 4000 4350 50  0001 C CNN
+F 3 "~" H 4000 4350 50  0001 C CNN
+	1    4000 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5EDE380B
+P 4000 4700
+F 0 "C2" H 4092 4746 50  0000 L CNN
+F 1 "22p" H 4092 4655 50  0000 L CNN
+F 2 "" H 4000 4700 50  0001 C CNN
+F 3 "~" H 4000 4700 50  0001 C CNN
+	1    4000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5EDE4A20
+P 3800 4700
+F 0 "C1" H 3650 4800 50  0000 L CNN
+F 1 "22p" H 3600 4700 50  0000 L CNN
+F 2 "" H 3800 4700 50  0001 C CNN
+F 3 "~" H 3800 4700 50  0001 C CNN
+	1    3800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4500 4000 4550
+$Comp
+L power:GND #PWR?
+U 1 1 5EDF3FB0
+P 4000 4900
+F 0 "#PWR?" H 4000 4650 50  0001 C CNN
+F 1 "GND" H 4005 4727 50  0000 C CNN
+F 2 "" H 4000 4900 50  0001 C CNN
+F 3 "" H 4000 4900 50  0001 C CNN
+	1    4000 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4800 4000 4850
+Wire Wire Line
+	3800 4800 3800 4850
+Wire Wire Line
+	3800 4850 4000 4850
+Connection ~ 4000 4850
+Wire Wire Line
+	4000 4850 4000 4900
+Wire Wire Line
+	3800 4600 3800 4100
+Wire Wire Line
+	3800 4100 4000 4100
+Wire Wire Line
+	4000 4200 4000 4100
+Connection ~ 4000 4100
+Wire Wire Line
+	4000 4100 4250 4100
+Text GLabel 4250 4100 2    50   Input ~ 0
+XTAL1
+Text GLabel 4250 4550 2    50   Input ~ 0
+XTAL2
+Wire Wire Line
+	4000 4550 4250 4550
+Connection ~ 4000 4550
+Wire Wire Line
+	4000 4550 4000 4600
 $EndSCHEMATC

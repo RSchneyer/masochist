@@ -1178,4 +1178,40 @@ F 3 "" H 7600 5750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7600 5650 7600 5750
+$Comp
+L power:+5V #PWR?
+U 1 1 5EEAD67E
+P 3900 5350
+F 0 "#PWR?" H 3900 5200 50  0001 C CNN
+F 1 "+5V" H 3915 5523 50  0000 C CNN
+F 2 "" H 3900 5350 50  0001 C CNN
+F 3 "" H 3900 5350 50  0001 C CNN
+	1    3900 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5350 3900 5450
+$Comp
+L power:GND #PWR?
+U 1 1 5EEB66EF
+P 3900 6450
+F 0 "#PWR?" H 3900 6200 50  0001 C CNN
+F 1 "GND" H 3905 6277 50  0000 C CNN
+F 2 "" H 3900 6450 50  0001 C CNN
+F 3 "" H 3900 6450 50  0001 C CNN
+	1    3900 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6350 3900 6450
+Text GLabel 4400 5750 2    50   Input ~ 0
+ROW1
+Text GLabel 4400 5850 2    50   Input ~ 0
+ROW2
+Text GLabel 4400 5950 2    50   Input ~ 0
+SCK
+Text GLabel 4400 6050 2    50   Input ~ 0
+RESET
+Text GLabel 2800 4200 2    50   Input ~ 0
+SCK
 $EndSCHEMATC
