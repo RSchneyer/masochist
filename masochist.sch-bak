@@ -49,10 +49,10 @@ F 3 "" H 5825 1175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D?
+L Device:D_Small D1
 U 1 1 5EC65A78
 P 6300 1500
-F 0 "D?" V 6346 1432 50  0000 R CNN
+F 0 "D1" V 6346 1432 50  0000 R CNN
 F 1 "D_Small" V 6255 1432 50  0000 R CNN
 F 2 "" V 6300 1500 50  0001 C CNN
 F 3 "~" V 6300 1500 50  0001 C CNN
@@ -75,10 +75,10 @@ F 3 "" H 6325 1175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D?
+L Device:D_Small D2
 U 1 1 5EC7052F
 P 6800 1500
-F 0 "D?" V 6846 1432 50  0000 R CNN
+F 0 "D2" V 6846 1432 50  0000 R CNN
 F 1 "D_Small" V 6755 1432 50  0000 R CNN
 F 2 "" V 6800 1500 50  0001 C CNN
 F 3 "~" V 6800 1500 50  0001 C CNN
@@ -1096,4 +1096,86 @@ Wire Wire Line
 Connection ~ 4000 4550
 Wire Wire Line
 	4000 4550 4000 4600
+$Comp
+L Connector:AVR-ISP-6 J?
+U 1 1 5EE2B83F
+P 4000 5950
+F 0 "J?" H 3671 6046 50  0000 R CNN
+F 1 "AVR-ISP-6" H 3671 5955 50  0000 R CNN
+F 2 "" V 3750 6000 50  0001 C CNN
+F 3 " ~" H 2725 5400 50  0001 C CNN
+	1    4000 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Plug P?
+U 1 1 5EE2DD5B
+P 5400 5450
+F 0 "P?" H 5507 6717 50  0000 C CNN
+F 1 "USB_C_Plug" H 5507 6626 50  0000 C CNN
+F 2 "" H 5550 5450 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5550 5450 50  0001 C CNN
+	1    5400 5450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7750 4950 2    50   Input ~ 0
+D-
+Text GLabel 7750 5150 2    50   Input ~ 0
+D+
+$Comp
+L Device:D_Zener_Small D28
+U 1 1 5EE4172D
+P 7600 5500
+F 0 "D28" V 7554 5568 50  0000 L CNN
+F 1 "D_Zener_Small" V 7645 5568 50  0000 L CNN
+F 2 "" V 7600 5500 50  0001 C CNN
+F 3 "~" V 7600 5500 50  0001 C CNN
+	1    7600 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 4950 7450 4950
+Wire Wire Line
+	6000 5150 7600 5150
+$Comp
+L Device:D_Zener_Small D29
+U 1 1 5EE68FA9
+P 7450 5500
+F 0 "D29" V 7350 5300 50  0000 L CNN
+F 1 "D_Zener_Small" V 7400 4900 50  0000 L CNN
+F 2 "" V 7450 5500 50  0001 C CNN
+F 3 "~" V 7450 5500 50  0001 C CNN
+	1    7450 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 5400 7600 5150
+Connection ~ 7600 5150
+Wire Wire Line
+	7600 5150 7750 5150
+Wire Wire Line
+	7450 5400 7450 4950
+Connection ~ 7450 4950
+Wire Wire Line
+	7450 4950 7750 4950
+Wire Wire Line
+	7600 5600 7600 5650
+Wire Wire Line
+	7450 5600 7450 5650
+Wire Wire Line
+	7450 5650 7600 5650
+Connection ~ 7600 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5EEA4918
+P 7600 5750
+F 0 "#PWR?" H 7600 5500 50  0001 C CNN
+F 1 "GND" H 7605 5577 50  0000 C CNN
+F 2 "" H 7600 5750 50  0001 C CNN
+F 3 "" H 7600 5750 50  0001 C CNN
+	1    7600 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5650 7600 5750
 $EndSCHEMATC
