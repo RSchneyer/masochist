@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega328P-PU U1
-U 1 1 5EC3BFE1
-P 1500 2400
-F 0 "U1" H 856 2446 50  0000 R CNN
-F 1 "ATmega328P-PU" H 856 2355 50  0000 R CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 1500 2400 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 1500 2400 50  0001 C CNN
-	1    1500 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 5EC3E630
 P 1500 4050
@@ -1598,7 +1587,20 @@ Wire Wire Line
 NoConn ~ 2100 3600
 NoConn ~ 2100 3500
 NoConn ~ 2100 3400
-NoConn ~ 2100 3200
-NoConn ~ 2100 3100
 NoConn ~ 900  1200
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-PU U1
+U 1 1 5EC3BFE1
+P 1500 2400
+F 0 "U1" H 856 2446 50  0000 R CNN
+F 1 "ATmega328P-PU" H 856 2355 50  0000 R CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 1500 2400 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 1500 2400 50  0001 C CNN
+	1    1500 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 2100 3100 2    50   Input ~ 0
+D+
+Text GLabel 2100 3200 2    50   Input ~ 0
+D-
 $EndSCHEMATC
