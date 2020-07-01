@@ -1580,8 +1580,17 @@ Wire Wire Line
 	4850 1600 4800 1600
 NoConn ~ 2100 3600
 NoConn ~ 2100 3500
-NoConn ~ 2100 3400
 NoConn ~ 900  1200
+Text GLabel 2100 3100 2    50   Input ~ 0
+D+
+Text GLabel 2100 3200 2    50   Input ~ 0
+D-
+Text GLabel 2100 2100 2    50   Input ~ 0
+COL5
+Text GLabel 2100 2200 2    50   Input ~ 0
+COL4
+Text GLabel 2100 2300 2    50   Input ~ 0
+COL3
 $Comp
 L MCU_Microchip_ATmega:ATmega328P-PU U1
 U 1 1 5EC3BFE1
@@ -1593,14 +1602,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 	1    1500 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 2100 3100 2    50   Input ~ 0
-D+
-Text GLabel 2100 3200 2    50   Input ~ 0
-D-
-Text GLabel 2100 2100 2    50   Input ~ 0
-COL5
-Text GLabel 2100 2200 2    50   Input ~ 0
-COL4
-Text GLabel 2100 2300 2    50   Input ~ 0
-COL3
+Text GLabel 2100 3400 2    50   Input ~ 0
+BOOT
 $EndSCHEMATC
