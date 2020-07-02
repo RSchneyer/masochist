@@ -978,13 +978,11 @@ Wire Wire Line
 Connection ~ 1600 850 
 Wire Wire Line
 	1600 850  1600 900 
-Text GLabel 2100 1300 2    50   Input ~ 0
+Text GLabel 2100 1600 2    50   Input ~ 0
 ROW0
-Text GLabel 2100 1400 2    50   Input ~ 0
-ROW1
 Text GLabel 2100 1500 2    50   Input ~ 0
 ROW1
-Text GLabel 2100 1600 2    50   Input ~ 0
+Text GLabel 2100 1400 2    50   Input ~ 0
 ROW3
 Text GLabel 2100 2600 2    50   Input ~ 0
 COL0
@@ -1604,4 +1602,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 $EndComp
 Text GLabel 2100 3400 2    50   Input ~ 0
 BOOT
+Text GLabel 2100 1300 2    50   Input ~ 0
+ROW2
 $EndSCHEMATC
