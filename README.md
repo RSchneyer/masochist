@@ -1,4 +1,5 @@
 # masochist
 the unholy offspring of a Pain27 and Romeo
 
-![Render of masochist PCB](https://i.imgur.com/rnJ727h.png)
+![Render of the front of the masochist PCB](https://i.imgur.com/yZJdvak.png)
+![Render of the back of the masochist PCB](https://i.imgur.com/rqaAFkB.png)
