@@ -1,5 +1,5 @@
 # masochist
-the unholy offspring of a Pain27 and Romeo
+the unholy offspring of a [Pain27](https://github.com/uuupah/pain27) and [Romeo](https://github.com/coseyfannitutti/romeo)
 
 ![Render of the front of the masochist PCB](media/masochist_front.png)
 ![Render of the back of the masochist PCB](media/masochist_back.png)
