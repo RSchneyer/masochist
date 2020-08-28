@@ -233,7 +233,7 @@
   )
 
   (module silkscreen:reid_face_tiny (layer B.Cu) (tedit 5F271432) (tstamp 5F2795F9)
-    (at 182.5625 123.03125 180)
+    (at 168.275 46.0375 180)
     (fp_text reference G*** (at 0 3.81) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
