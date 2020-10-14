@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 38)
+    (drawings 39)
     (tracks 970)
     (zones 0)
     (modules 95)
@@ -5609,6 +5609,9 @@
     )
   )
 
+  (gr_text JLCJLCJLCJLC (at 221.996 40.64) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 108.74375 130.175) (end 108.74375 118.26875) (layer Edge.Cuts) (width 0.05) (tstamp 5F5BA4CD))
   (gr_line (start 232.56875 130.175) (end 232.56875 113.50625) (layer Edge.Cuts) (width 0.05) (tstamp 5F5BA4CC))
   (gr_text "by Reid" (at 213.233 128.016) (layer B.SilkS)
